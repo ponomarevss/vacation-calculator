@@ -18,6 +18,6 @@ public class HolidayService {
     }
 
     public boolean isHoliday(LocalDate date, List<Holiday> holidays) {
-        return holidays.stream().anyMatch(holiday -> holiday.getDate().equals(date.toString()));
+        return holidays.stream().anyMatch(holiday -> holiday.getDate().equals(date));
     }
 }
