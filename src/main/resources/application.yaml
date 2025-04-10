@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: vacation-calculator
+holiday:
+  api:
+    url: "https://date.nager.at/api/v3/publicholidays/{year}/RU"
+  vacation:
+    average-days-per-month: 29.3
